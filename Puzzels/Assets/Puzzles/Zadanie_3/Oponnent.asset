@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448ebb1649e88044c8ac653bcbb02052, type: 3}
+  m_Name: Oponnent
+  m_EditorClassIdentifier: 
+  Houses:
+  - {fileID: 21300000, guid: d4a5b2d340408ca4d93987d75d89e316, type: 3}
+  - {fileID: 21300000, guid: 348e6a2600416644e846081d52b8a9f2, type: 3}
+  - {fileID: 21300000, guid: b8c43635f26ef884b89286fa9f57775f, type: 3}
+  ForgedKeys: 1
+  Amber: 2
+  Archive: []
+  Hand: []
+  PlayedArtifacts:
+  - Front: {fileID: 21300000, guid: c90d06a81f0d9c24caa660e1c77c5b7a, type: 3}
+  - Front: {fileID: 21300000, guid: c90d06a81f0d9c24caa660e1c77c5b7a, type: 3}
+  - Front: {fileID: 21300000, guid: b5eae44f95873384eafb38c75a6bf7e1, type: 3}
+  - Front: {fileID: 21300000, guid: 9223120f557badc45b5366e7a656f1c8, type: 3}
+  PlayedCreatures:
+  - Front: {fileID: 21300000, guid: 58347e861d7211b4c9e88d0fb59170be, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 3a3d73ebf173fd74a89575627d0ab870, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 826f9afb66765e44f8db04e2637f910b, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: fed5f84b7b51d5b449c1c3c0c26b0af7, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 94259b056b0a34e46bdcab5e30e0f508, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0

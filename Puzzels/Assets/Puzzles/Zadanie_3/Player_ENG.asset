@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448ebb1649e88044c8ac653bcbb02052, type: 3}
+  m_Name: Player_ENG
+  m_EditorClassIdentifier: 
+  Houses:
+  - {fileID: 21300000, guid: 0945ece481ccb8548be3ae655082631b, type: 3}
+  - {fileID: 21300000, guid: 9f7bf74eed7626a4a9a77a5b4e1cd747, type: 3}
+  - {fileID: 21300000, guid: 7f7059be0282c5f4db170bdf92cd938e, type: 3}
+  ForgedKeys: 0
+  Amber: 6
+  Archive:
+  - Front: {fileID: 21300000, guid: b21af7d40a7fa4e42b2343da43ae6e02, type: 3}
+  Hand:
+  - Front: {fileID: 21300000, guid: af1acc212aaca4a42bcd460062550313, type: 3}
+  - Front: {fileID: 21300000, guid: 8a686dc238a778049a59b8e5b86980fb, type: 3}
+  - Front: {fileID: 21300000, guid: 3e22345e48540084ab2781ba69b401d2, type: 3}
+  - Front: {fileID: 21300000, guid: 8d3b2eb5815aa23449a5e46cd7b6ee9d, type: 3}
+  - Front: {fileID: 21300000, guid: 1bbe80f36e57ca2408db41c00ebe8ccd, type: 3}
+  - Front: {fileID: 21300000, guid: 150f4738113983f4e895935d855a3152, type: 3}
+  PlayedArtifacts:
+  - Front: {fileID: 21300000, guid: 8d04addd01638d644b70952f395f3313, type: 3}
+  - Front: {fileID: 21300000, guid: 7db1635e8e475d346bdcf1abab6dd629, type: 3}
+  PlayedCreatures:
+  - Front: {fileID: 21300000, guid: fcb6e68096a45ea499c4f5c18b42ddd5, type: 3}
+    Taunt: 1
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 42368c7e06e3bec48bd8461eb17bd42c, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0

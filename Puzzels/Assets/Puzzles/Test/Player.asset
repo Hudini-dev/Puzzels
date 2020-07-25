@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448ebb1649e88044c8ac653bcbb02052, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  ForgedKeys: 0
+  Amber: 0
+  Hand:
+  - Front: {fileID: 21300000, guid: ff253e9ef792bd24cba905dd90720a35, type: 3}
+  - Front: {fileID: 21300000, guid: 5072aaf463d1b614ba89d0bbfe25eaf0, type: 3}
+  - Front: {fileID: 21300000, guid: 5072aaf463d1b614ba89d0bbfe25eaf0, type: 3}
+  - Front: {fileID: 21300000, guid: 827ee82efb3480f42ba7fbb745a12cc5, type: 3}
+  - Front: {fileID: 21300000, guid: 15ac1281cb06feb4ea5bceabbea77dbc, type: 3}
+  - Front: {fileID: 21300000, guid: 1b5726c0f86ad8a4084aec8fdba399f2, type: 3}
+  PlayedArtifacts:
+  - Front: {fileID: 21300000, guid: be40fff2c595a954c8524d0822d91e4f, type: 3}
+  PlayedCreatures:
+  - Front: {fileID: 21300000, guid: 6fe30b49622649246906446a1f9d350a, type: 3}
+    Taunt: 0
+    Stun: 1
+    Ward: 1
+    Enrage: 0
+    Damage: 0
+    Amber: 2
+    Upgrades:
+    - Front: {fileID: 21300000, guid: e991c621875f7f04a929e6b15ee5bcc9, type: 3}
+    - Front: {fileID: 21300000, guid: df3600e7ba72e594784a38896c5b9373, type: 3}
+  - Front: {fileID: 21300000, guid: 983666b229270d549964aaef330e5d59, type: 3}
+    Taunt: 1
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 3
+    Amber: 0
+    Upgrades: []
