@@ -1,4 +1,6 @@
 ﻿using Assets.Scripts;
+using Assets.Scripts.Data.Builder;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -26,8 +28,8 @@ public class TableCreator : MonoBehaviour
         SpawCards(_opponent.CreaturesLine, _opponentData.PlayedCreatures, true);
         SpawCards(_archiveContainer.Container, _playerData.Archive);
 
-        _opponentHand.SetHouses(_opponentData.Houses);
-        _playerHand.SetHouses(_playerData.Houses);
+        //_opponentHand.SetHouses(_opponentData.HousesSprites);
+        //_playerHand.SetHouses(_playerData.HousesSprites);
 
         SetKeys(_opponent.Keys, _opponentData.ForgedKeys, _opponentData.Amber);
         SetKeys(_player.Keys, _playerData.ForgedKeys, _playerData.Amber);

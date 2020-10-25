@@ -12,25 +12,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 448ebb1649e88044c8ac653bcbb02052, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  Houses:
-  - {fileID: 21300000, guid: 1caee8cf05d9a6e488a6804f1f8c9e5d, type: 3}
-  - {fileID: 21300000, guid: 348e6a2600416644e846081d52b8a9f2, type: 3}
-  - {fileID: 21300000, guid: 3cf9da67fda13054ca4aa4fd79e59fec, type: 3}
+  Expansion: 0
+  Houses: 010000000200000007000000
   ForgedKeys: 0
   Amber: 3
+  Chanis: 0
+  PlayedEffects: []
+  Deck: []
   Archive: []
+  Discard: []
   Hand:
   - Front: {fileID: 21300000, guid: 0d45c2beb58e3654e98c1237fd0e8551, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
   - Front: {fileID: 21300000, guid: 3587be362271f3147a82a03a125085a1, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
   - Front: {fileID: 21300000, guid: 2524c4ca26ec6214fa505910e3c756fd, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
   - Front: {fileID: 21300000, guid: 9983a7536403ce348a2dc6d9b137a444, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
   - Front: {fileID: 21300000, guid: be569ddd781092a42b85e677cfc90751, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
   - Front: {fileID: 21300000, guid: 468eb8c7cb4ff354d8cf4a628b41f506, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
   - Front: {fileID: 21300000, guid: f1bb616ea94ac4143ae0f22ec8d3bc7c, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
   PlayedArtifacts:
   - Front: {fileID: 21300000, guid: 56ef0d2caacd1194abb450f49cef6143, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
   PlayedCreatures:
   - Front: {fileID: 21300000, guid: 5e14e1f9fb0d80940851c6270344dbb8, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
     Taunt: 0
     Stun: 0
     Ward: 0
@@ -41,6 +97,12 @@ MonoBehaviour:
     Upgrades: []
     CardUnder: 0
   - Front: {fileID: 21300000, guid: 0e665c5bece206545830a6c33af30079, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
     Taunt: 0
     Stun: 0
     Ward: 0
@@ -50,8 +112,20 @@ MonoBehaviour:
     Power: 0
     Upgrades:
     - Front: {fileID: 21300000, guid: c3c4136b9c1429f429f3d29bfe0d99a2, type: 3}
+      Expansion: 
+      Enhancements:
+        Amber: 0
+        Capture: 0
+        Damage: 0
+        Draw: 0
     CardUnder: 0
   - Front: {fileID: 21300000, guid: f9f5273268e9713408ccf5f1bd11414a, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
     Taunt: 0
     Stun: 0
     Ward: 0
@@ -62,6 +136,12 @@ MonoBehaviour:
     Upgrades: []
     CardUnder: 0
   - Front: {fileID: 21300000, guid: 7b1bfb34b1597e545a9c5d35f9134212, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
     Taunt: 0
     Stun: 0
     Ward: 0
@@ -72,6 +152,12 @@ MonoBehaviour:
     Upgrades: []
     CardUnder: 0
   - Front: {fileID: 21300000, guid: d492c988462559c498d5213843e65d74, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
     Taunt: 0
     Stun: 0
     Ward: 0

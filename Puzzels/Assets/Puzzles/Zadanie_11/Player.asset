@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448ebb1649e88044c8ac653bcbb02052, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  Expansion: 3
+  Houses: 010000000400000005000000
+  ForgedKeys: 1
+  Amber: 6
+  Chanis: 0
+  PlayedEffects: []
+  Deck: []
+  Archive:
+  - Front: {fileID: 21300000, guid: ea579de499e54274a97b28059b135304, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+  Discard: []
+  Hand:
+  - Front: {fileID: 21300000, guid: 3bf4a834508f04148afe5ee4375bee34, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+  - Front: {fileID: 21300000, guid: 3a365650506c53a46b8f81fc4713d78f, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+  - Front: {fileID: 21300000, guid: dab306f8abe81374abc85a5c022d4538, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+  - Front: {fileID: 21300000, guid: ce738606dbf15284eb70997ac54a838b, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+  - Front: {fileID: 21300000, guid: 681712c375e6ad04ab0e3e90bc673b87, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+  - Front: {fileID: 21300000, guid: 83462c061a1aef24f971b96457aabb6c, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+  PlayedArtifacts:
+  - Front: {fileID: 21300000, guid: ea579de499e54274a97b28059b135304, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+  - Front: {fileID: 21300000, guid: 1667e3001df54794e9c1b88df73b6e27, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+  PlayedCreatures:
+  - Front: {fileID: 21300000, guid: 993a960e512cd7248a1c8c1e9b268394, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Taunt: 1
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 09fa12e2b37767c4a91cfcc83cb89e10, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 9381b68103b462441af6c838001fd341, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 2
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 66fe0d510b4565845956d59de04082f6, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: f6cb0e7cc23dd524189f437922f52f75, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 7bca506bba375b942a911b76ffcafc91, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 3
+    Amber: 2
+    Power: 0
+    Upgrades: []
+    CardUnder: 0

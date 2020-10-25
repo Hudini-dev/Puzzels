@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
+[JsonConverter(typeof(StringEnumConverter))]
 public enum Houses
 {
     Brobnar = 0,
@@ -10,7 +10,7 @@ public enum Houses
     Mars = 3,
     Sanctum = 4,
     Saurian = 5,
-    Star_Allay = 6,
+    StarAlliance = 6,
     Shadow = 7,
     Untamed = 8
 }

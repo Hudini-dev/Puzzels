@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98dba8787d12dde4c9d0a0d974ea0c4d, type: 3}
+  m_Name: PlayerBoardData
+  m_EditorClassIdentifier: 
+  Expansion: COTA
+  ForgedKeys: 2
+  Amber: 1
+  PlayedEffects: []
+  Deck: []
+  Archive: []
+  Discard: []
+  Hand:
+  - Front: {fileID: 21300000, guid: b39ca45aa6a7f0048a73baa732749a8d, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Test: 0
+  - Front: {fileID: 21300000, guid: 23f736b02e0c1244fb066218ddd0d61a, type: 3}
+    Expansion: MM
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Test: 0
+  - Front: {fileID: 21300000, guid: 8f0eef50a4ec9d6499c2abd943e4fa45, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Test: 0
+  - Front: {fileID: 21300000, guid: 2cbe21c7be130a94a8f8e750d7ad3be4, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Test: 0
+  - Front: {fileID: 21300000, guid: 7dc00720bd1f9c9498bef509ff1fb8d8, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Test: 0
+  - Front: {fileID: 21300000, guid: f4a995b2f5a8b9147823d48c97d396c1, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Test: 0
+  PlayedArtifacts:
+  - Front: {fileID: 21300000, guid: 7c3f47951bc789649ae732fd9be6dc30, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Test: 0
+    Amber: 0
+    Tokens: 0
+  PlayedCreatures:
+  - Front: {fileID: 21300000, guid: 3fe09c92614823547aaa070f7b9d7650, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Test: 0
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 2
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 0e665c5bece206545830a6c33af30079, type: 3}
+    Expansion: 
+    Enhancements:
+      Amber: 0
+      Capture: 0
+      Damage: 0
+      Draw: 0
+    Test: 0
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 1
+    Power: 0
+    Upgrades: []
+    CardUnder: 0

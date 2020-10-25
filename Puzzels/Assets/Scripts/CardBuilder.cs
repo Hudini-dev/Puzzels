@@ -1,4 +1,6 @@
-﻿using Assets.Scripts;
+﻿
+using Assets.Scripts;
+using Assets.Scripts.Data.Builder;
 using UnityEngine;
 
 public class CardBuilder : MonoBehaviour
@@ -13,6 +15,12 @@ public class CardBuilder : MonoBehaviour
     [SerializeField] private Sprite _wardMarker;
     [SerializeField] private Sprite _enrageMarker;
     [SerializeField] private Sprite _powerMarker;
+    [SerializeField] private CardsLoader _cardLoader;
+
+    public void Init(Expansions expansion, Language language)
+    {
+        _cardLoader.Init(expansion, language);
+    }
 
     public CardSlot GetSlotCard(CardData data)
     {
@@ -22,12 +30,39 @@ public class CardBuilder : MonoBehaviour
         return slot;
     }
 
-    public CardSlot GetSlotCard(CreatureCardData data, bool opponentSide = false)
+    public CardSlot GetSlotCard(BaseCardData data)
+    {
+        var slot = Instantiate(_cardSlotPrefab);
+        var card = GetCard(data);
+        slot.AddCard(card);
+        return slot;
+    }
+
+    public CardSlot GetSlotCard(Assets.Scripts.Data.CreatureCardData data, bool opponentSide = false)
     {
         var slot = Instantiate(_cardSlotPrefab);
         var card = GetCard(data);
         slot.AddCard(card, data.Taunt, opponentSide);
         foreach(var upg in data.Upgrades)
+        {
+            slot.AddUpgrade(GetCard(upg));
+        }
+        if (data.CardUnder)
+        {
+            var archonCard = Instantiate(_archonCardPrefab);
+            archonCard.transform.SetParent(slot.transform);
+            archonCard.transform.SetAsFirstSibling();
+            archonCard.transform.position = new Vector3(0, -40, 0);
+        }
+        return slot;
+    }
+
+    public CardSlot GetSlotCard(Assets.Scripts.Data.Builder.CreatureCardData data, bool opponentSide = false)
+    {
+        var slot = Instantiate(_cardSlotPrefab);
+        var card = GetCard(data);
+        slot.AddCard(card, data.Taunt, opponentSide);
+        foreach (var upg in data.Upgrades)
         {
             slot.AddUpgrade(GetCard(upg));
         }
@@ -48,10 +83,19 @@ public class CardBuilder : MonoBehaviour
         return card;
     }
 
-    public Card GetCard(CreatureCardData data)
+    public Card GetCard(BaseCardData data)
     {
         var card = Instantiate(_cardPrefab);
-        card.SetFront(data.Front);
+        var front = _cardLoader.GetCard(data.Id);
+        card.SetFront(front);
+        return card;
+    }
+
+    public Card GetCard(Assets.Scripts.Data.CreatureCardData data)
+    {
+        var card = Instantiate(_cardPrefab);
+        var front = _cardLoader.GetCard(data.Id);
+        card.SetFront(front);
 
         if(data.Amber > 0)
         {

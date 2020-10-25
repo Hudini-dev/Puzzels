@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 448ebb1649e88044c8ac653bcbb02052, type: 3}
-  m_Name: Player_ENG
+  m_Name: Player_IT
   m_EditorClassIdentifier: 
   Houses:
   - {fileID: 21300000, guid: 1caee8cf05d9a6e488a6804f1f8c9e5d, type: 3}
@@ -20,17 +20,17 @@ MonoBehaviour:
   Amber: 3
   Archive: []
   Hand:
-  - Front: {fileID: 21300000, guid: 48bc59fdace58d64da00ef847ed37290, type: 3}
-  - Front: {fileID: 21300000, guid: 8d0a2c8f16fc7d349b105563710cf670, type: 3}
-  - Front: {fileID: 21300000, guid: af26e3908f6ef0d44a1664a1f0e85cd8, type: 3}
-  - Front: {fileID: 21300000, guid: 13488a6051d8ff44984f3b6a4f53582e, type: 3}
-  - Front: {fileID: 21300000, guid: 6ea8aa92bf67a5c4d832c443c732aed7, type: 3}
+  - Front: {fileID: 21300000, guid: 5bc165f21ad281a4b9b638561811732f, type: 3}
+  - Front: {fileID: 21300000, guid: 83ff06f94c1fd3341a621be95af4a843, type: 3}
+  - Front: {fileID: 21300000, guid: 970e2af8f87d84447b759c1957022950, type: 3}
+  - Front: {fileID: 21300000, guid: d6cff28ca9bce0544b143d3c377f9141, type: 3}
+  - Front: {fileID: 21300000, guid: 1f452b6c2d089e247a77559a4e5bd81d, type: 3}
   - Front: {fileID: 21300000, guid: 3ecb13b310cc9b548815e098a93d83ac, type: 3}
-  - Front: {fileID: 21300000, guid: da083ac80ac62cd4792bd2f88a80a57f, type: 3}
+  - Front: {fileID: 21300000, guid: 30548b5d3e9d0094987ea46769e3d028, type: 3}
   PlayedArtifacts:
-  - Front: {fileID: 21300000, guid: a64768f192521674daef80d2c06707b6, type: 3}
+  - Front: {fileID: 21300000, guid: 5b12365cee1feb44babe77f3f216cdf4, type: 3}
   PlayedCreatures:
-  - Front: {fileID: 21300000, guid: c7cf4b809d415c043abb34afcb798b72, type: 3}
+  - Front: {fileID: 21300000, guid: a828e228c5419c746a986de9300f3712, type: 3}
     Taunt: 0
     Stun: 0
     Ward: 0
@@ -40,7 +40,7 @@ MonoBehaviour:
     Power: 0
     Upgrades: []
     CardUnder: 0
-  - Front: {fileID: 21300000, guid: fb2d1a78925cfca4d843e478b4fde6ac, type: 3}
+  - Front: {fileID: 21300000, guid: c99fdae68c4877e4681516bab09eb2ed, type: 3}
     Taunt: 0
     Stun: 0
     Ward: 0
@@ -49,9 +49,9 @@ MonoBehaviour:
     Amber: 0
     Power: 0
     Upgrades:
-    - Front: {fileID: 21300000, guid: b07f6a55dc3365a4d8ec1d8e0c2cae68, type: 3}
+    - Front: {fileID: 21300000, guid: 991196ab47c629348bc50e483a330512, type: 3}
     CardUnder: 0
-  - Front: {fileID: 21300000, guid: dc56c7ab797edd1439f3866bcadf3708, type: 3}
+  - Front: {fileID: 21300000, guid: b74719233785cba43b0682c016a84ce1, type: 3}
     Taunt: 0
     Stun: 0
     Ward: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
     Power: 0
     Upgrades: []
     CardUnder: 0
-  - Front: {fileID: 21300000, guid: c0c354eb0b09402479a22e1465d611ff, type: 3}
+  - Front: {fileID: 21300000, guid: 2c85f89c6870396458835199e05ac3fb, type: 3}
     Taunt: 0
     Stun: 0
     Ward: 0
@@ -71,7 +71,7 @@ MonoBehaviour:
     Power: 0
     Upgrades: []
     CardUnder: 0
-  - Front: {fileID: 21300000, guid: aeb8e66861b1161448f6e0eb17bed7fe, type: 3}
+  - Front: {fileID: 21300000, guid: bb4b23f9c0b69c342aebfd3fd8361694, type: 3}
     Taunt: 0
     Stun: 0
     Ward: 0

@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448ebb1649e88044c8ac653bcbb02052, type: 3}
+  m_Name: Opponent_ES
+  m_EditorClassIdentifier: 
+  Addition: 0
+  Houses:
+  - {fileID: 21300000, guid: b8c43635f26ef884b89286fa9f57775f, type: 3}
+  - {fileID: 21300000, guid: 3cf9da67fda13054ca4aa4fd79e59fec, type: 3}
+  - {fileID: 21300000, guid: 7f7059be0282c5f4db170bdf92cd938e, type: 3}
+  ForgedKeys: 2
+  Amber: 6
+  Archive: []
+  Hand: []
+  PlayedArtifacts:
+  - Front: {fileID: 21300000, guid: ddad7b83eecdfdf4a8b6d27a27cfd149, type: 3}
+  - Front: {fileID: 21300000, guid: 41e9fb2cc2c764649bbf8d3c584bf097, type: 3}
+  - Front: {fileID: 21300000, guid: ddf5caf2b73e4544aa9e6dfcb4645a59, type: 3}
+  PlayedCreatures:
+  - Front: {fileID: 21300000, guid: 7d0acc73441965b41bac7ece9fefb512, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 4547776947373114491e16681d5eb152, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 1c7a276781142e545b82657742dcd82b, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: b7b9906a92f5c5641a206b7e46d80691, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 39b3e34f8f82cba4180881d7bce7484e, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 2
+    Power: 0
+    Upgrades:
+    - Front: {fileID: 21300000, guid: 368f4ae59d184d54e910d268f564bf65, type: 3}
+    CardUnder: 0
+  - Front: {fileID: 21300000, guid: 786c701f6d66ee446873ca4d7e1636ff, type: 3}
+    Taunt: 0
+    Stun: 0
+    Ward: 0
+    Enrage: 0
+    Damage: 0
+    Amber: 0
+    Power: 0
+    Upgrades: []
+    CardUnder: 0
