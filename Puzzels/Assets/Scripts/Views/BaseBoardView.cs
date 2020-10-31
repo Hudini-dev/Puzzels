@@ -6,11 +6,11 @@ public class BaseBoardView : MonoBehaviour
     [SerializeField] private KeysView _keyView;
     [SerializeField] private Transform _playedCreaturesContainer;
     [SerializeField] private Transform _playedArtefactsContainer;
-    [SerializeField] private Transform _discardContainer;
+    [SerializeField] private ContainerController _discard;
 
     public Transform CreaturesContainer => _playedCreaturesContainer;
     public Transform ArtefactsContainer => _playedArtefactsContainer;
-    public Transform DiscardContainer => _discardContainer;
+    public Transform DiscardContainer => _discard.Container;
 
     public virtual void Init(PlayerBoardData data, Sprite[] houseIcons)
     {
@@ -39,5 +39,6 @@ public class BaseBoardView : MonoBehaviour
         {
             Destroy(child.gameObject);
         }
+        _discard.Clear();
     }
 }

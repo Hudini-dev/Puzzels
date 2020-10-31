@@ -1,8 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class OpponentBoardView : BaseBoardView
 {
-    [SerializeField] private Transform _playedEffectsContainer;
+    [SerializeField] private ContainerController _playedEffect;
+
+    public Transform PlayedEffectsContainer => _playedEffect.Container;
+
+    protected override void Clear()
+    {
+        base.Clear();
+        _playedEffect.Clear();
+    }
 }

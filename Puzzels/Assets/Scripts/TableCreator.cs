@@ -26,7 +26,6 @@ public class TableCreator : MonoBehaviour
         SpawCards(_player.CreaturesLine, _playerData.PlayedCreatures);
         SpawCards(_opponent.ArtefactLine, _opponentData.PlayedArtifacts);
         SpawCards(_opponent.CreaturesLine, _opponentData.PlayedCreatures, true);
-        SpawCards(_archiveContainer.Container, _playerData.Archive);
 
         //_opponentHand.SetHouses(_opponentData.HousesSprites);
         //_playerHand.SetHouses(_playerData.HousesSprites);

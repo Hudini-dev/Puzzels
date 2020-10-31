@@ -3,12 +3,12 @@
 public class PlayerBoardView : BaseBoardView
 {
     [SerializeField] private Transform _handContainer;
-    [SerializeField] private Transform _archiveContainer;
-    [SerializeField] private Transform _deckContainer;
+    [SerializeField] private ContainerController _archive;
+    [SerializeField] private ContainerController _deck;
 
     public Transform HandContainer => _handContainer;
-    public Transform ArchiveContainer => _archiveContainer;
-    public Transform DeckContainer => _deckContainer;
+    public Transform ArchiveContainer => _archive.Container;
+    public Transform DeckContainer => _deck.Container;
 
     protected override void Clear()
     {
@@ -17,5 +17,8 @@ public class PlayerBoardView : BaseBoardView
         {
             Destroy(child.gameObject);
         }
+
+        _archive.Clear();
+        _deck.Clear();
     }
 }

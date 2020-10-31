@@ -20,7 +20,7 @@ public class PuzzelViewController : MonoBehaviour
         _playerBoardView.Init(data.PlayerData, GetPlayersHousesIcons(data.PlayerData.Houses));
         _opponentBoardView.Init(data.OponnentData, GetPlayersHousesIcons(data.OponnentData.Houses));
 
-        LoadPlayerCards(data.PlayerData, _playerBoardView);
+        LoadPlayerCards(data.PlayerData);
         LoadCards(data.OponnentData, _opponentBoardView);
     }
 
@@ -43,10 +43,24 @@ public class PuzzelViewController : MonoBehaviour
         SpawnCards(view.ArtefactsContainer, data.PlayedArtifacts);
     }
 
-    private void LoadPlayerCards(PlayerBoardData data, PlayerBoardView view)
+    private void LoadPlayerCards(PlayerBoardData data)
     {
-        LoadCards(data, view);
-        SpawnCards(view.HandContainer, data.Hand);
+        LoadCards(data, _playerBoardView);
+        SpawnCards(_playerBoardView.HandContainer, data.Hand);
+        SpawnCards(_playerBoardView.ArchiveContainer, data.Archive);
+        SpawnCards(_playerBoardView.DeckContainer, data.Deck);
+
+        _playerBoardView.HandContainer.gameObject.SetActive(data.Hand.Count > 0);
+        _playerBoardView.ArchiveContainer.gameObject.SetActive(data.Archive.Count > 0);
+        _playerBoardView.DeckContainer.gameObject.SetActive(data.Deck.Count > 0);
+    }
+
+    private void LoadOpponentCards(PlayerBoardData data)
+    {
+        LoadCards(data, _opponentBoardView);
+        SpawnCards(_opponentBoardView.PlayedEffectsContainer, data.PlayedEffects);
+
+        _opponentBoardView.PlayedEffectsContainer.gameObject.SetActive(data.PlayedEffects.Count > 0);
     }
 
     private void SpawnCards(Transform holder, List<BaseCardData> cardDataList)
