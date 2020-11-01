@@ -1,31 +1,26 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-public class LocalizationController : MonoBehaviour
+public static class LocalizationController
 {
-    private string[] _lanquages;
-    private string _lanquage;
+    private static string[] _lanquages;
+    private static string _lanquage;
 
-    private string[,] _localizationData;
-    private Dictionary<string, int> _keyLookup = new Dictionary<string, int>();
+    private static string[,] _localizationData;
+    private static Dictionary<string, int> _keyLookup = new Dictionary<string, int>();
 
-    private void Awake()
-    {
-        Initialize();
+    private static bool _initialized;
 
-        Debug.Log(GetLocalizationString("PUZZEL_1_TITLE"));
-    }
-
-    private void Initialize()
+    private static void Initialize()
     {
         TextAsset csvFile = (TextAsset)Resources.Load("Localization/Localization", typeof(TextAsset));
         if(csvFile != null)
         {
             _localizationData = CSVReader.SplitCsvGrid(csvFile.text);
             InitializeLookup();
+            _initialized = true;
         }
         else
         {
@@ -33,13 +28,13 @@ public class LocalizationController : MonoBehaviour
         }
     }
 
-    private void InitializeLanquages(string text)
+    private static void InitializeLanquages(string text)
     {
         var first = new StringReader(text).ReadLine()?.ToLower();
         _lanquages = CSVReader.SplitCsvLine(first);
     }
 
-    private void InitializeLookup()
+    private static void InitializeLookup()
     {
         _keyLookup.Clear();
         var keysCount = _localizationData.GetLength(1);
@@ -52,17 +47,21 @@ public class LocalizationController : MonoBehaviour
         }
     }
 
-    public string GetLocalizationString(string key)
+    public static string GetLocalizationString(string key)
     {
+        if(!_initialized)
+        {
+            Initialize();
+        }
         return SearchForKey(key, 1);
     }
 
-    private int SearchForLanquageIndex(string lanquage)
+    private static int SearchForLanquageIndex(string lanquage)
     {
         return Array.IndexOf(_lanquages, lanquage.ToLower());
     }
 
-    private string SearchForKey(string key, int lanquageIndex)
+    private static string SearchForKey(string key, int lanquageIndex)
     {
         if(_keyLookup.TryGetValue(key.ToLower(), out var index))
         {
