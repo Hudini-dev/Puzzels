@@ -12,29 +12,49 @@ public class PuzzelCreator : MonoBehaviour
     [SerializeField] private PlayerTableData _opponentData;
 
     [SerializeField] private PuzzelViewController _viewController;
+
+    private PuzzelData _puzzelData;
+
+    public PuzzelData PuzzelData
+    {
+        get
+        {
+            if(_puzzelData == null)
+            {
+                GeneratePuzzelData();
+            }
+            return _puzzelData;
+        }
+    }
  
     private void Start()
     {
         Init();
     }
 
-    private string GenerateJson()
+    private void GeneratePuzzelData()
     {
         var descriptionData = new DescriptionData() { Number = _number, Title = _tittle, Description = _description };
         var playerJson = JsonConvert.SerializeObject(_playerData, Formatting.Indented, new JsonSerializerSettings { DefaultValueHandling = DefaultValueHandling.Ignore });
         PlayerBoardData playerData = JsonConvert.DeserializeObject<PlayerBoardData>(playerJson);
         var oppponentJson = JsonConvert.SerializeObject(_opponentData, Formatting.Indented, new JsonSerializerSettings { DefaultValueHandling = DefaultValueHandling.Ignore });
         PlayerBoardData opponentData = JsonConvert.DeserializeObject<PlayerBoardData>(oppponentJson);
-        var puzzelData = new PuzzelData() { DescriptionData = descriptionData, PlayerData = playerData, OponnentData = opponentData};
+        _puzzelData = new PuzzelData() { DescriptionData = descriptionData, PlayerData = playerData, OponnentData = opponentData };
+}
 
-        return JsonConvert.SerializeObject(puzzelData, Formatting.Indented, new JsonSerializerSettings { DefaultValueHandling = DefaultValueHandling.Ignore });
+    public string GenerateJson()
+    {
+        return JsonConvert.SerializeObject(PuzzelData, Formatting.Indented, new JsonSerializerSettings { DefaultValueHandling = DefaultValueHandling.Ignore });
     }
 
     public void Init()
     {
-        var json = GenerateJson();
-        var puzzel = JsonConvert.DeserializeObject<PuzzelData>(json);
+        _viewController.Init(PuzzelData, _language);
+    }
 
+    public void Create(string puzzelJson)
+    {
+        var puzzel = JsonConvert.DeserializeObject<PuzzelData>(puzzelJson);
         _viewController.Init(puzzel, _language);
     }
  }

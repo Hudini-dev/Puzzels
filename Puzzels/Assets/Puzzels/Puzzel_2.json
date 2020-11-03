@@ -1,0 +1,223 @@
+{
+  "DescriptionData": {
+    "Number": 2,
+    "Title": "PUZZEL_1_TITLE",
+    "Description": "PUZZEL_1_DECRIPTION"
+  },
+  "PlayerData": {
+    "Houses": [
+      "Brobnar",
+      "Brobnar",
+      "Brobnar"
+    ],
+    "ForgedKeys": 2,
+    "Amber": 2,
+    "PlayedEffects": [],
+    "Deck": [],
+    "Archive": [
+      {
+        "Id": "161",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "176",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "202",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "203",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "018",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "035",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "039",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "040",
+        "Expansion": "",
+        "Enhancements": {}
+      }
+    ],
+    "Discard": [],
+    "Hand": [
+      {
+        "Id": "015",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "033",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "049",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "177",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "195",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "199",
+        "Expansion": "",
+        "Enhancements": {}
+      }
+    ],
+    "PlayedArtifacts": [
+      {
+        "Id": "127",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "187",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "185",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "022",
+        "Expansion": "",
+        "Enhancements": {}
+      }
+    ],
+    "PlayedCreatures": [
+      {
+        "Upgrades": [],
+        "Id": "190",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Upgrades": [],
+        "Id": "200",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Upgrades": [],
+        "Id": "138",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Upgrades": [],
+        "Id": "144",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Upgrades": [],
+        "Id": "032",
+        "Expansion": "",
+        "Enhancements": {}
+      }
+    ]
+  },
+  "OponnentData": {
+    "Houses": [
+      "Brobnar",
+      "Brobnar",
+      "Brobnar"
+    ],
+    "ForgedKeys": 2,
+    "Amber": 6,
+    "PlayedEffects": [],
+    "Deck": [],
+    "Archive": [],
+    "Discard": [],
+    "Hand": [],
+    "PlayedArtifacts": [
+      {
+        "Id": "218",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "287",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Id": "346",
+        "Expansion": "",
+        "Enhancements": {}
+      }
+    ],
+    "PlayedCreatures": [
+      {
+        "Upgrades": [],
+        "Id": "327",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Upgrades": [],
+        "Id": "333",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Upgrades": [],
+        "Id": "272",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Upgrades": [],
+        "Id": "367",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Amber": 2,
+        "Upgrades": [
+          {
+            "Id": "263",
+            "Expansion": "",
+            "Enhancements": {}
+          }
+        ],
+        "Id": "213",
+        "Expansion": "",
+        "Enhancements": {}
+      },
+      {
+        "Upgrades": [],
+        "Id": "226",
+        "Expansion": "",
+        "Enhancements": {}
+      }
+    ]
+  }
+}
