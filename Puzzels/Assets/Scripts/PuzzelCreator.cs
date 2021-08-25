@@ -57,4 +57,17 @@ public class PuzzelCreator : MonoBehaviour
         var puzzel = JsonConvert.DeserializeObject<PuzzelData>(puzzelJson);
         _viewController.Init(puzzel, _language);
     }
- }
+
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            TakeScreenShot();
+        }
+    }
+
+    private void TakeScreenShot()
+    {
+        ScreenCapture.CaptureScreenshot("TABLE_SCREEN");
+    }
+}

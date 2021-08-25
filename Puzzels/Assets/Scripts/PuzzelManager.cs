@@ -11,6 +11,7 @@ public class PuzzelManager : MonoBehaviour
     private void Awake()
     {
         _path = Application.dataPath + "/Puzzels/";
+        GetAllPuzzels();
     }
 
     public void SaveToFile()
@@ -40,5 +41,16 @@ public class PuzzelManager : MonoBehaviour
         fileStream.Close();
 
         _puzzelCreator.Create(json);
+    }
+
+    private void GetAllPuzzels()
+    {
+        DirectoryInfo dir = new DirectoryInfo(_path);
+        FileInfo[] info = dir.GetFiles("*.json");
+
+        foreach (FileInfo f in info)
+        {
+            Debug.Log(Path.GetFileNameWithoutExtension(f.FullName));
+        }
     }
 }

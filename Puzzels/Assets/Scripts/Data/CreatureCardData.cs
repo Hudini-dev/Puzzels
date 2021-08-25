@@ -6,6 +6,7 @@ namespace Assets.Scripts.Data
     [Serializable]
     public class CreatureCardData : BaseCardData
     {
+        public bool Exhausted;
         public bool Taunt;
         public bool Stun;
         public bool Ward;

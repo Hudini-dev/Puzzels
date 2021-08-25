@@ -6,7 +6,7 @@ using UnityEngine;
 public class CardBuilder : MonoBehaviour
 {
     [SerializeField] private Card _cardPrefab;
-    [SerializeField] private Marker _markerPrefab;
+    [SerializeField] private Token _markerPrefab;
     [SerializeField] private CardSlot _cardSlotPrefab;
     [SerializeField] private ArchonCardController _archonCardPrefab;
     [SerializeField] private Sprite _amberMarker;
@@ -16,6 +16,11 @@ public class CardBuilder : MonoBehaviour
     [SerializeField] private Sprite _enrageMarker;
     [SerializeField] private Sprite _powerMarker;
     [SerializeField] private CardsLoader _cardLoader;
+    [SerializeField] private Sprite[] _enhancementBackgrounds;
+    [SerializeField] private Sprite _amberPip;
+    [SerializeField] private Sprite _capturePip;
+    [SerializeField] private Sprite _damagePip;
+    [SerializeField] private Sprite _drawPip;
 
     public void Init(Expansions expansion, Language language)
     {

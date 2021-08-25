@@ -6,7 +6,7 @@ public class KeyView : MonoBehaviour
 {
     [SerializeField] private Image _keyImage;
     [SerializeField] private Sprite _forgedKey;
-    [SerializeField] private Marker _amberMarker;
+    [SerializeField] private Token _amberMarker;
     [SerializeField] private Sprite _amberSprite;
 
     private void Awake()
